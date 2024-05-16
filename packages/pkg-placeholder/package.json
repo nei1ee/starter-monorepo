@@ -1,0 +1,44 @@
+{
+  "name": "@starter-monorepo/pkg-placeholder",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.1.1",
+  "description": "_description_",
+  "author": "Neil <zguolee@foxmail.com>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/zguolee",
+  "homepage": "https://github.com/zguolee/starter-monorepo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zguolee/starter-monorepo.git"
+  },
+  "bugs": "https://github.com/zguolee/starter-monorepo/issues",
+  "keywords": [],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub"
+  },
+  "devDependencies": {}
+}
