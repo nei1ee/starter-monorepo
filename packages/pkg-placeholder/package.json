@@ -7,7 +7,7 @@
   "author": "Neil <zguolee@foxmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/zguolee",
-  "homepage": "https://github.com/zguolee/starter-monorepo#readme",
+  "homepage": "https://github.com/zguolee/starter-monorepo/tree/main/packages/pkg-placeholder#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zguolee/starter-monorepo.git"

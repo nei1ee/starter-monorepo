@@ -1,5 +1,5 @@
 {
-  "name": "@starter-monorepo/pkg-placeholder",
+  "name": "@starter-monorepo/monorepo",
   "type": "module",
   "version": "0.0.0",
   "private": true,
